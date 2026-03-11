@@ -1,0 +1,334 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="offers.meta.title">Livestock Offers | Miran Livestock</title>
+  <meta name="description" data-i18n="offers.meta.description" content="Browse our available cattle, sheep, and goats for export. All livestock is EU certified and export-ready.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="header" id="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <img src="img/Miran_Logo.png" alt="Miran Livestock" class="logo-img">
+      <span class="logo-text">Miran Livestock</span>
+    </a>
+    <nav class="desktop-nav">
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="services.html" data-i18n="nav.services">Services</a>
+      <a href="offers.html" class="active" data-i18n="nav.offers">Offers</a>
+      <a href="about.html" data-i18n="nav.about">About</a>
+      <a href="contact.html" data-i18n="nav.contact">Contact</a>
+    </nav>
+    
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+      <button class="lang-btn active" data-lang="en">EN</button>
+      <button class="lang-btn" data-lang="bg">BG</button>
+      <button class="lang-btn" data-lang="tr">TR</button>
+      <button class="lang-btn" data-lang="de">DE</button>
+    </div>
+    
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ================= MOBILE MENU ================= -->
+<nav class="side-menu" id="sideMenu">
+  <button class="close-btn" id="closeBtn" aria-label="Close menu">×</button>
+  <div class="menu-links">
+    <a href="index.html" data-i18n="nav.home">Home</a>
+    <a href="services.html" data-i18n="nav.services">Services</a>
+    <a href="offers.html" class="active" data-i18n="nav.offers">Offers</a>
+    <a href="about.html" data-i18n="nav.about">About</a>
+    <a href="contact.html" data-i18n="nav.contact">Contact</a>
+  </div>
+  
+  <div class="mobile-lang-switcher">
+    <span data-i18n="nav.language">Language:</span>
+    <div class="mobile-lang-buttons">
+      <button class="lang-btn active" data-lang="en">English</button>
+      <button class="lang-btn" data-lang="bg">Български</button>
+      <button class="lang-btn" data-lang="tr">Türkçe</button>
+      <button class="lang-btn" data-lang="de">Deutsch</button>
+    </div>
+  </div>
+  
+  <div class="menu-footer">
+    <p>info@miranlivestock.com</p>
+    <p>+359 88 823 0620</p>
+  </div>
+</nav>
+<div class="menu-overlay" id="menuOverlay"></div>
+
+<!-- ================= PAGE HERO ================= -->
+<section class="page-hero">
+  <div class="page-hero-bg">
+    <img src="img/Cattle_Herd.png" alt="Livestock Offers" loading="eager">
+  </div>
+  <div class="hero-overlay"></div>
+  
+  <div class="container">
+    <div class="page-hero-content reveal">
+      <span class="breadcrumb">
+        <a href="index.html" data-i18n="offers.breadcrumb.home">Home</a>
+        <span>/</span>
+        <span data-i18n="nav.offers">Offers</span>
+      </span>
+      <h1 data-i18n="offers.hero.title">Current Livestock Offers</h1>
+      <p data-i18n="offers.hero.subtitle">Browse our available animals ready for export. All livestock is EU certified and export-ready.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CATALOG SECTION ================= -->
+<section class="catalog-section section-padding">
+  <div class="container">
+    
+    <!-- Filters -->
+    <div class="catalog-filters reveal">
+      <button class="filter-btn active" data-filter="all" data-i18n="offers.filter.all">All Animals</button>
+      <button class="filter-btn" data-filter="cattle" data-i18n="offers.filter.cattle">🐄 Cattle</button>
+      <button class="filter-btn" data-filter="sheep" data-i18n="offers.filter.sheep">🐑 Sheep</button>
+      <button class="filter-btn" data-filter="goats" data-i18n="offers.filter.goats">🐐 Goats</button>
+    </div>
+    
+    <!-- Catalog Grid -->
+    <div class="catalog-grid">
+      
+      <!-- Cattle Card 1 -->
+      <div class="livestock-card reveal" data-category="cattle">
+        <div class="livestock-image">
+          <img src="img/Cattle_Herd.png" alt="Holstein Cattle">
+          <span class="livestock-badge" data-i18n="offers.card.available">Available Now</span>
+        </div>
+        <div class="livestock-info">
+          <h3>Holstein Dairy Cattle</h3>
+          <div class="livestock-meta">
+            <span>🐄 120 <span data-i18n="offers.card.head">head</span></span>
+            <span>📍 Razgrad, Bulgaria</span>
+          </div>
+          <div class="livestock-specs">
+            <div class="spec"><span data-i18n="offers.card.age">Age</span>18-24 mo</div>
+            <div class="spec"><span data-i18n="offers.card.weight">Weight</span>400-500kg</div>
+            <div class="spec"><span data-i18n="offers.card.health">Health</span>EU Certified</div>
+          </div>
+          <button class="btn btn-primary btn-sm inquire-btn" data-animal="Holstein Dairy Cattle" data-i18n="offers.card.inquire">
+            Inquire Now
+          </button>
+        </div>
+      </div>
+
+      <!-- Cattle Card 2 -->
+      <div class="livestock-card reveal" data-category="cattle">
+        <div class="livestock-image">
+          <img src="img/Cattle_loading.png" alt="Angus Beef Cattle">
+          <span class="livestock-badge" data-i18n="offers.card.available">Available Now</span>
+        </div>
+        <div class="livestock-info">
+          <h3>Angus Beef Cattle</h3>
+          <div class="livestock-meta">
+            <span>🐄 85 <span data-i18n="offers.card.head">head</span></span>
+            <span>📍 Shumen, Bulgaria</span>
+          </div>
+          <div class="livestock-specs">
+            <div class="spec"><span data-i18n="offers.card.age">Age</span>12-18 mo</div>
+            <div class="spec"><span data-i18n="offers.card.weight">Weight</span>350-450kg</div>
+            <div class="spec"><span data-i18n="offers.card.health">Health</span>EU Certified</div>
+          </div>
+          <button class="btn btn-primary btn-sm inquire-btn" data-animal="Angus Beef Cattle" data-i18n="offers.card.inquire">
+            Inquire Now
+          </button>
+        </div>
+      </div>
+
+      <!-- Sheep Card 1 -->
+      <div class="livestock-card reveal" data-category="sheep">
+        <div class="livestock-image">
+          <img src="img/Sheep_pen.png" alt="Dorper Sheep">
+          <span class="livestock-badge" data-i18n="offers.card.available">Available Now</span>
+        </div>
+        <div class="livestock-info">
+          <h3>Dorper Meat Sheep</h3>
+          <div class="livestock-meta">
+            <span>🐑 300 <span data-i18n="offers.card.head">head</span></span>
+            <span>📍 Razgrad, Bulgaria</span>
+          </div>
+          <div class="livestock-specs">
+            <div class="spec"><span data-i18n="offers.card.age">Age</span>8-12 mo</div>
+            <div class="spec"><span data-i18n="offers.card.weight">Weight</span>45-65kg</div>
+            <div class="spec"><span data-i18n="offers.card.health">Health</span>EU Certified</div>
+          </div>
+          <button class="btn btn-primary btn-sm inquire-btn" data-animal="Dorper Meat Sheep" data-i18n="offers.card.inquire">
+            Inquire Now
+          </button>
+        </div>
+      </div>
+
+      <!-- Sheep Card 2 -->
+      <div class="livestock-card reveal" data-category="sheep">
+        <div class="livestock-image">
+          <img src="img/Sheep_pen.png" alt="Merino Sheep">
+          <span class="livestock-badge" data-i18n="offers.card.coming">Coming Soon</span>
+        </div>
+        <div class="livestock-info">
+          <h3>Merino Wool Sheep</h3>
+          <div class="livestock-meta">
+            <span>🐑 150 <span data-i18n="offers.card.head">head</span></span>
+            <span>📍 Varna, Bulgaria</span>
+          </div>
+          <div class="livestock-specs">
+            <div class="spec"><span data-i18n="offers.card.age">Age</span>10-14 mo</div>
+            <div class="spec"><span data-i18n="offers.card.weight">Weight</span>50-70kg</div>
+            <div class="spec"><span data-i18n="offers.card.health">Health</span>EU Certified</div>
+          </div>
+          <button class="btn btn-primary btn-sm inquire-btn" data-animal="Merino Wool Sheep" data-i18n="offers.card.preorder">
+            Pre-order
+          </button>
+        </div>
+      </div>
+
+      <!-- Goat Card 1 -->
+      <div class="livestock-card reveal" data-category="goats">
+        <div class="livestock-image">
+          <img src="img/Cattle_Herd.png" alt="Boer Goats">
+          <span class="livestock-badge" data-i18n="offers.card.available">Available Now</span>
+        </div>
+        <div class="livestock-info">
+          <h3>Boer Meat Goats</h3>
+          <div class="livestock-meta">
+            <span>🐐 200 <span data-i18n="offers.card.head">head</span></span>
+            <span>📍 Targovishte, Bulgaria</span>
+          </div>
+          <div class="livestock-specs">
+            <div class="spec"><span data-i18n="offers.card.age">Age</span>6-10 mo</div>
+            <div class="spec"><span data-i18n="offers.card.weight">Weight</span>35-50kg</div>
+            <div class="spec"><span data-i18n="offers.card.health">Health</span>EU Certified</div>
+          </div>
+          <button class="btn btn-primary btn-sm inquire-btn" data-animal="Boer Meat Goats" data-i18n="offers.card.inquire">
+            Inquire Now
+          </button>
+        </div>
+      </div>
+
+      <!-- Goat Card 2 -->
+      <div class="livestock-card reveal" data-category="goats">
+        <div class="livestock-image">
+          <img src="img/Cattle_loading.png" alt="Saanen Goats">
+          <span class="livestock-badge" data-i18n="offers.card.available">Available Now</span>
+        </div>
+        <div class="livestock-info">
+          <h3>Saanen Dairy Goats</h3>
+          <div class="livestock-meta">
+            <span>🐐 80 <span data-i18n="offers.card.head">head</span></span>
+            <span>📍 Razgrad, Bulgaria</span>
+          </div>
+          <div class="livestock-specs">
+            <div class="spec"><span data-i18n="offers.card.age">Age</span>12-18 mo</div>
+            <div class="spec"><span data-i18n="offers.card.weight">Weight</span>50-65kg</div>
+            <div class="spec"><span data-i18n="offers.card.health">Health</span>EU Certified</div>
+          </div>
+          <button class="btn btn-primary btn-sm inquire-btn" data-animal="Saanen Dairy Goats" data-i18n="offers.card.inquire">
+            Inquire Now
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="cta-section section-padding bg-accent">
+  <div class="container">
+    <div class="cta-content reveal">
+      <h2 data-i18n="offers.cta.title">Don't See What You Need?</h2>
+      <p data-i18n="offers.cta.desc">We source specific breeds and quantities on request. Tell us your requirements.</p>
+      <div class="cta-buttons">
+        <a href="contact.html" class="btn btn-light">
+          <span data-i18n="offers.cta.button">Custom Request</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="footer-logo">
+          <img src="img/Miran_Logo.png" alt="Miran Livestock" class="logo-img">
+          <span>Miran Livestock</span>
+        </a>
+        <p data-i18n="footer.desc">EU certified livestock trading and export services. Connecting quality livestock with international markets since 2010.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </a>
+          <a href="#" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+          </a>
+        </div>
+      </div>
+      
+      <div class="footer-links">
+        <h4 data-i18n="footer.links">Quick Links</h4>
+        <ul>
+          <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+          <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+          <li><a href="offers.html" data-i18n="nav.offers">Offers</a></li>
+          <li><a href="about.html" data-i18n="nav.about">About Us</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4 data-i18n="footer.services">Services</h4>
+        <ul>
+          <li><a href="services.html" data-i18n="services.export.title">Animal Export</a></li>
+          <li><a href="services.html" data-i18n="services.trading.title">Livestock Trading</a></li>
+          <li><a href="services.html" data-i18n="services.quarantine.title">Quarantine Facilities</a></li>
+          <li><a href="services.html" data-i18n="footer.logistics">Logistics</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4 data-i18n="footer.contact">Contact</h4>
+        <p>Razgrad, Bulgaria</p>
+        <p>+359 88 823 0620</p>
+        <p>info@miranlivestock.com</p>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2026 Miran Livestock. <span data-i18n="footer.rights">All rights reserved.</span></p>
+      <div class="footer-legal">
+        <a href="#" data-i18n="footer.privacy">Privacy Policy</a>
+        <a href="#" data-i18n="footer.terms">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/lang.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>'''
+
+print("offers.html prepared with full translation support")
+print(f"Length: {len(offers_html)} characters")

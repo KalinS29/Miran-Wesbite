@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="about.meta.title">About Us | Miran Livestock</title>
+  <meta name="description" data-i18n="about.meta.description" content="Learn about Miran Livestock - EU certified livestock trading and export company based in Bulgaria.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="header" id="header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <img src="img/Miran_Logo.png" alt="Miran Livestock" class="logo-img">
+      <span class="logo-text">Miran Livestock</span>
+    </a>
+    <nav class="desktop-nav">
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="services.html" data-i18n="nav.services">Services</a>
+      <a href="offers.html" data-i18n="nav.offers">Offers</a>
+      <a href="about.html" class="active" data-i18n="nav.about">About</a>
+      <a href="contact.html" data-i18n="nav.contact">Contact</a>
+    </nav>
+    
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+      <button class="lang-btn active" data-lang="en">EN</button>
+      <button class="lang-btn" data-lang="bg">BG</button>
+      <button class="lang-btn" data-lang="tr">TR</button>
+      <button class="lang-btn" data-lang="de">DE</button>
+    </div>
+    
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ================= MOBILE MENU ================= -->
+<nav class="side-menu" id="sideMenu">
+  <button class="close-btn" id="closeBtn" aria-label="Close menu">×</button>
+  <div class="menu-links">
+    <a href="index.html" data-i18n="nav.home">Home</a>
+    <a href="services.html" data-i18n="nav.services">Services</a>
+    <a href="offers.html" data-i18n="nav.offers">Offers</a>
+    <a href="about.html" class="active" data-i18n="nav.about">About</a>
+    <a href="index.html#contact" data-i18n="nav.contact">Contact</a>
+  </div>
+  
+  <div class="mobile-lang-switcher">
+    <span data-i18n="nav.language">Language:</span>
+    <div class="mobile-lang-buttons">
+      <button class="lang-btn active" data-lang="en">English</button>
+      <button class="lang-btn" data-lang="bg">Български</button>
+      <button class="lang-btn" data-lang="tr">Türkçe</button>
+      <button class="lang-btn" data-lang="de">Deutsch</button>
+    </div>
+  </div>
+  
+  <div class="menu-footer">
+    <p>info@miranlivestock.com</p>
+    <p>+359 88 823 0620</p>
+  </div>
+</nav>
+<div class="menu-overlay" id="menuOverlay"></div>
+
+<!-- ================= PAGE HERO ================= -->
+<section class="page-hero about-hero">
+  <div class="page-hero-bg">
+    <img src="img/Cattle_Herd.png" alt="About Miran Livestock" loading="eager">
+  </div>
+  <div class="hero-overlay"></div>
+  
+  <div class="container">
+    <div class="page-hero-content reveal">
+      <span class="breadcrumb">
+        <a href="index.html" data-i18n="about.breadcrumb.home">Home</a>
+        <span>/</span>
+        <span data-i18n="nav.about">About</span>
+      </span>
+      <h1 data-i18n="about.hero.title">About Miran Livestock</h1>
+      <p data-i18n="about.hero.subtitle">Connecting quality livestock with international markets through trusted partnerships and certified operations.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= STORY SECTION ================= -->
+<section class="story-section section-padding">
+  <div class="container">
+    <div class="story-grid">
+      <div class="story-image reveal">
+        <img src="img/Cattle_Herd.png" alt="Miran Livestock Operations" loading="lazy">
+        <div class="experience-badge">
+          <span class="exp-number">15+</span>
+          <span class="exp-text" data-i18n="about.story.badge">Years of<br>Excellence</span>
+        </div>
+      </div>
+      
+      <div class="story-content reveal">
+        <span class="section-label" data-i18n="about.story.label">Our Story</span>
+        <h2 data-i18n="about.story.title">Trusted Livestock Partners Since 2010</h2>
+        <p class="lead" data-i18n="about.story.lead">Miran Livestock is a EU-certified livestock trading and export company headquartered in Razgrad, Bulgaria. We specialize in connecting quality cattle, sheep, and goats with international markets.</p>
+        
+        <p data-i18n="about.story.p1">Our operations span the entire livestock export chain—from sourcing through our extensive network of trusted European suppliers, to veterinary certification, quarantine management, and final delivery to destinations across the Middle East, North Africa, and beyond.</p>
+        
+        <p data-i18n="about.story.p2">With over 15 years of experience, we have built a reputation for reliability, transparency, and excellence in animal welfare. Our team of veterinarians, logistics specialists, and trading experts work together to ensure every export meets the highest standards.</p>
+        
+        <div class="story-stats">
+          <div class="stat">
+            <span class="stat-number" data-count="50000">0</span>
+            <span class="stat-suffix">+</span>
+            <span class="stat-label" data-i18n="about.stats.animals">Animals Exported</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-count="25">0</span>
+            <span class="stat-suffix">+</span>
+            <span class="stat-label" data-i18n="about.stats.countries">Countries Served</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number" data-count="98">0</span>
+            <span class="stat-suffix">%</span>
+            <span class="stat-label" data-i18n="about.stats.satisfaction">Client Satisfaction</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= MISSION SECTION ================= -->
+<section class="mission-section section-padding bg-dark">
+  <div class="container">
+    <div class="mission-grid">
+      <div class="mission-content reveal">
+        <span class="section-label" data-i18n="about.mission.label">Our Mission</span>
+        <h2 class="light" data-i18n="about.mission.title">Excellence in Every Export</h2>
+        <p class="light" data-i18n="about.mission.p1">We believe that quality livestock export requires more than just logistics—it demands dedication to animal welfare, strict compliance with international regulations, and genuine partnerships with our clients.</p>
+        <p class="light" data-i18n="about.mission.p2">Our mission is to bridge the gap between European livestock producers and international markets, ensuring that every animal we export arrives healthy, documented, and ready for its new environment.</p>
+        
+        <div class="mission-points">
+          <div class="mission-point">
+            <div class="point-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+            </div>
+            <span data-i18n="about.mission.point1">Uncompromising animal welfare standards</span>
+          </div>
+          <div class="mission-point">
+            <div class="point-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+            </div>
+            <span data-i18n="about.mission.point2">Full regulatory compliance and transparency</span>
+          </div>
+          <div class="mission-point">
+            <div class="point-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+            </div>
+            <span data-i18n="about.mission.point3">Long-term partnerships with clients and suppliers</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="mission-image reveal">
+        <img src="img/Sheep_pen.png" alt="Our Mission" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= VALUES SECTION ================= -->
+<section class="values-section section-padding">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label" data-i18n="about.values.label">Our Principles</span>
+      <h2 class="section-title" data-i18n="about.values.title">Why Choose Us</h2>
+      <p class="section-desc" data-i18n="about.values.desc">The values that drive everything we do</p>
+    </div>
+    
+    <div class="values-grid">
+      <div class="value-card reveal">
+        <div class="value-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+          </svg>
+        </div>
+        <h3 data-i18n="about.values.quality.title">Certified Quality</h3>
+        <p data-i18n="about.values.quality.desc">Every animal meets strict EU health and welfare standards before export. Complete documentation and traceability guaranteed.</p>
+      </div>
+      
+      <div class="value-card reveal">
+        <div class="value-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+          </svg>
+        </div>
+        <h3 data-i18n="about.values.network.title">Trusted Network</h3>
+        <p data-i18n="about.values.network.desc">Long-standing relationships with verified suppliers across Europe and established partnerships with buyers worldwide.</p>
+      </div>
+      
+      <div class="value-card reveal">
+        <div class="value-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+          </svg>
+        </div>
+        <h3 data-i18n="about.values.efficiency.title">Efficient Logistics</h3>
+        <p data-i18n="about.values.efficiency.desc">Streamlined transport coordination ensuring timely, safe delivery. We handle all documentation and customs requirements.</p>
+      </div>
+      
+      <div class="value-card reveal">
+        <div class="value-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+          </svg>
+        </div>
+        <h3 data-i18n="about.values.global.title">Global Reach</h3>
+        <p data-i18n="about.values.global.desc">Exporting to markets across the Middle East, North Africa, and beyond. We understand diverse market requirements.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TEAM SECTION ================= -->
+<section class="team-section section-padding bg-dark">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label" data-i18n="about.team.label">Leadership</span>
+      <h2 class="section-title light" data-i18n="about.team.title">Meet Our Team</h2>
+      <p class="section-desc light" data-i18n="about.team.desc">Experienced professionals dedicated to your success</p>
+    </div>
+    
+    <div class="team-grid">
+      <div class="team-card reveal">
+        <div class="team-image">
+          <div class="team-avatar">👨‍💼</div>
+        </div>
+        <div class="team-info">
+          <h3>Talat Çelebi</h3>
+          <span class="team-role" data-i18n="about.team.founder">Founder & CEO</span>
+          <p data-i18n="about.team.founder.desc">15+ years in livestock export, established Miran Livestock in 2010.</p>
+        </div>
+      </div>
+      
+      <div class="team-card reveal">
+        <div class="team-image">
+          <div class="team-avatar">👩‍⚕️</div>
+        </div>
+        <div class="team-info">
+          <h3>Dr. Elena Petrova</h3>
+          <span class="team-role" data-i18n="about.team.vet">Head Veterinarian</span>
+          <p data-i18n="about.team.vet.desc">EU-certified veterinary specialist ensuring health compliance.</p>
+        </div>
+      </div>
+      
+      <div class="team-card reveal">
+        <div class="team-image">
+          <div class="team-avatar">👨‍💼</div>
+        </div>
+        <div class="team-info">
+          <h3>Ahmed Hassan</h3>
+          <span class="team-role" data-i18n="about.team.operations">Operations Manager</span>
+          <p data-i18n="about.team.operations.desc">Expert in logistics and international trade regulations.</p>
+        </div>
+      </div>
+      
+      <div class="team-card reveal">
+        <div class="team-image">
+          <div class="team-avatar">👩‍💼</div>
+        </div>
+        <div class="team-info">
+          <h3>Sevdalina Yordanova</h3>
+          <span class="team-role" data-i18n="about.team.sales">Sales Director</span>
+          <p data-i18n="about.team.sales.desc">Building lasting relationships with clients across 25+ countries.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PARTNERS SECTION ================= -->
+<section class="partners-section section-padding">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label" data-i18n="about.partners.label">Trusted By</span>
+      <h2 class="section-title" data-i18n="about.partners.title">Our Partners</h2>
+      <p class="section-desc" data-i18n="about.partners.desc">Collaborating with industry leaders to deliver excellence</p>
+    </div>
+    
+    <div class="partners-grid reveal">
+      <div class="partner-logo">🇪🇺 EU Certified</div>
+      <div class="partner-logo">🏛️ Bulgarian Chamber</div>
+      <div class="partner-logo">🚛 International Transport</div>
+      <div class="partner-logo">🏥 Veterinary Services</div>
+      <div class="partner-logo">📋 Customs Agency</div>
+      <div class="partner-logo">🌍 Export Association</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA SECTION ================= -->
+<section class="cta-section section-padding bg-accent">
+  <div class="container">
+    <div class="cta-content reveal">
+      <h2 data-i18n="about.cta.title">Let's Work Together</h2>
+      <p data-i18n="about.cta.desc">Partner with a trusted name in international livestock export.</p>
+      <div class="cta-buttons">
+        <a href="index.html#contact" class="btn btn-light">
+          <span data-i18n="about.cta.button1">Get in Touch</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+        <a href="services.html" class="btn btn-outline-light">
+          <span data-i18n="about.cta.button2">View Services</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="footer-logo">
+          <img src="img/Miran_Logo.png" alt="Miran Livestock" class="logo-img">
+          <span>Miran Livestock</span>
+        </a>
+        <p data-i18n="footer.desc">EU certified livestock trading and export services. Connecting quality livestock with international markets since 2010.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </a>
+          <a href="#" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+          </a>
+        </div>
+      </div>
+      
+      <div class="footer-links">
+        <h4 data-i18n="footer.links">Quick Links</h4>
+        <ul>
+          <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+          <li><a href="services.html" data-i18n="nav.services">Services</a></li>
+          <li><a href="offers.html" data-i18n="nav.offers">Offers</a></li>
+          <li><a href="about.html" data-i18n="nav.about">About Us</a></li>
+          <li><a href="index.html#contact" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4 data-i18n="footer.services">Services</h4>
+        <ul>
+          <li><a href="services.html" data-i18n="services.export.title">Animal Export</a></li>
+          <li><a href="services.html" data-i18n="services.trading.title">Livestock Trading</a></li>
+          <li><a href="services.html" data-i18n="services.quarantine.title">Quarantine Facilities</a></li>
+          <li><a href="services.html" data-i18n="footer.logistics">Logistics</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4 data-i18n="footer.contact">Contact</h4>
+        <p>Razgrad, Bulgaria</p>
+        <p>+359 88 823 0620</p>
+        <p>info@miranlivestock.com</p>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2026 Miran Livestock. <span data-i18n="footer.rights">All rights reserved.</span></p>
+      <div class="footer-legal">
+        <a href="#" data-i18n="footer.privacy">Privacy Policy</a>
+        <a href="#" data-i18n="footer.terms">Terms of Service</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/lang.js"></script>
+<script src="js/main.js"></script>
+<script src="js/about.js"></script>
+</body>
+</html>
